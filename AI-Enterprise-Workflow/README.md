@@ -50,7 +50,7 @@ Yes, see `src/monitor.py` which contains a function to compute the Wasserstein d
 - Was there an attempt to isolate the read/write unit tests from production models and logs?\
 Yes, see `src/log.py`.
 - Does the API work as expected? For example, can you get predictions for a specific country as well as for all countries combined?\
-Yes, use `curl --request POST 'http://127.0.0.1/predict?date=2018-11-20'` or `curl --request POST 'http://127.0.0.1/predict?date=2018-11-20&country=Australia'`
+Yes
 - Does the data ingestion exists as a function or script to facilitate automation?\
 Yes, see `src/ingest.py`.
 - Were multiple models compared?\
@@ -61,16 +61,3 @@ Yes, see `nb/analysis.ipynb` which includes time-series, seasonal-trend decompos
 Yes, see `Dockerfile`.
 - Did they use a visualization to compare their model to the baseline model?\
 Yes, see `nb/results.ipynb` where the ARIMA and SARIMA model results are compared to the actual revenue.
-
-## Certificate
-[IBM AI Enterprise Workflow Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/FEMQA3MYLH4B)
-
-- [AI Workflow: Business Priorities and Data Ingestion](https://www.coursera.org/account/accomplishments/certificate/2X2RFPD9DQVU)
-- [AI Workflow: Data Analysis and Hypothesis Testing](https://www.coursera.org/account/accomplishments/certificate/MLG59HKYWDZU)
-- [AI Workflow: Feature Engineering and Bias Detection](https://www.coursera.org/account/accomplishments/certificate/TTB9B9CQ4VP8)
-- [AI Workflow: Machine Learning, Visual Recognition and NLP](https://www.coursera.org/account/accomplishments/certificate/N5XX4T5TQGUM)
-- [AI Workflow: Enterprise Model Deployment](https://www.coursera.org/account/accomplishments/certificate/3R37ZMTRHAEH)
-- [AI Workflow: AI in Production](https://www.coursera.org/account/accomplishments/certificate/HPHJ9H2RAW43)
-
-## References
-[IBM AI Enterprise Workflow Specialization](https://www.coursera.org/specializations/ibm-ai-workflow)
